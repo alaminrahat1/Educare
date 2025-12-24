@@ -1,0 +1,238 @@
+/* font links */
+@font-face{
+	src: url('../fonts/Poppins-Regular.ttf');
+	font-family: Poppins-Regular; 
+}
+@font-face{
+	src: url('../fonts/Poppins-SemiBold.ttf');
+	font-family: Poppins-SemiBold;  
+}
+@font-face {
+	src: url('../fonts/Poppins-Bold.ttf');
+	font-family: Poppins-Bold;
+}
+/* common css start */
+:root{
+	--black: #000000;
+	--white: #ffffff;
+	--hairyhealth: #682C0E;
+	--tiamaria: #C24914;
+	--fireopal: #FC8621;
+	--palebrown: #DAC0A3;
+	--sweetgold: #F9E0AE;
+	--satin: #EADBC8;
+	--pop: "Poppins", sans-serif;
+}
+body{
+	font-family: var(--pop);
+	font-size: 20px;
+	font-weight: 400;
+	color: var(--black);
+}
+.btn_cm{
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 20px;
+	text-align: center;
+	color: var(--white);
+
+}
+.btn_cm:hover{
+	background-color: var(--black);
+	color: var(--white);
+	transition: 0.33s;
+}
+.btn_cm:active{
+	background-color: var(--black) !important;
+	color: var(--white) !important;
+}
+/* common css end */
+/* header start */
+header{
+	padding: 15px 0;
+	background-color: var(--sweetgold);
+}
+.logo{}
+.menu{}
+.menu ul li a{
+	padding: 0 20px !important;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 20px;
+	color: var(--black);
+	transition: .1s;
+}
+.menu ul li a:hover{
+	background-color: var(--black);
+	border-radius: 10px;
+	color: var(--white);
+	transition: 0.33s;
+}
+.btn_menu{
+	margin-left: 20px;
+	padding: 5px 15px;
+	background-color: var(--tiamaria);
+	border-radius: 10px;
+}
+/* header end */
+/* banner start */
+.banner{
+	    padding: 115px 0;
+	/* padding-bottom: 60px 0; */
+}
+.banner_text{
+	/* padding: 40px 0; */
+}
+.b_h1{
+	margin: 0 140px 30px 0;
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 48px;
+}
+.b_p{
+	font-size: 20px; 
+	color: #00000075;
+}
+.btn_banner{
+	margin-top: 25px;
+	padding: 5px 15px;
+	background-color: var(--hairyhealth) !important;
+}
+.btn_banner:hover{
+	background-color: var(--black) !important;
+	color: var(--white);
+	transition: 0.33s;
+}
+/* banner end */
+/* course start */
+.course{
+	/* padding: 60px 0; */
+	/* padding-bottom: 60px; */
+	    padding: 60px 0;
+}
+.course_img{}
+.course_text{}
+.c_h1{
+	font-weight: 600;
+	font-size: 48px;
+}
+.c_list{}
+.c_list li{
+	font-size: 20px;
+	line-height: 40px;  
+}
+/* course end */
+/* register start */
+.register{}
+.reg_text{
+	margin-top: 60px;
+}
+.reg_text h1{
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 48px;
+	line-height: 72px;
+}
+.reg_form{
+	margin: 40px 0 40px;
+	padding: 40px 40px;
+	background-color: var(--sweetgold);
+}
+.name, .mail{
+	padding: 15px 20px;
+	font-size: 20px;
+	text-align: center; 
+}
+.btn_reg{
+	padding: 15px 100px 15px;
+	background-color: var(--tiamaria); 
+}
+/* register end */
+/* community start */
+.community{
+	margin-top: 50px;
+	/* margin-bottom: 50px; */
+}
+.community_text{}
+.img2{
+	width: 94px;
+	height: 94px;
+	transform: translate(575px, 26px);
+}
+.community_text h1{
+	margin: 5px 100px 30px;
+	font-weight: 600;
+	font-size: 48px;
+	/* text-align: center; */
+}
+.community_text p{
+	margin-top: 20px;
+	/* text-align: center; */
+}
+.btn_community{
+	margin: 30px 180px 20px;
+    padding: 10px 40px;
+	background-color: var(--fireopal);
+}
+.img4{
+	width: 94px;
+	height: 94px;
+	transform: translate(37px, 16px);
+}
+.img5{
+	width: 94px;
+	height: 94px;
+	transform: translate(189px, 110px);
+}
+.img1{
+	width: 600px;
+	height: 400px;
+	transform: translate(421px, -194px);
+}
+.img3{
+	width: 94px;
+	height: 94px;
+	transform: translate(820px, -642px);
+}
+/* community end */
+/* footer top start */
+.footer_top{
+	    margin-top: -50px;
+	/* padding: 55px 0 55px; */
+	    padding: 55px 0px 50px;
+	background-color: var(--sweetgold)
+}
+.ft_logo{}
+.ft_logo a img{
+	width: 135px !important;
+}
+.follow_link{}
+.cm_p{
+	margin-left: 5px;
+	padding-bottom: 15px;
+   font-weight: 600;
+}
+.follow_link ul li a img{
+	transition: .3s;
+}
+.follow_link ul li a img:hover{
+	transform: scale(.8);
+}
+.useful_link{}
+.useful_link ul li a{
+	font-size: 15px;
+	text-decoration: none;
+	color: var(--black) !important;
+}
+.address{}
+.address p{}
+/* footer top end */
+/* footer start */
+footer{
+	padding-bottom: 30px;
+	background-color: var(--sweetgold)
+}
+/* footer end */
+
+
+

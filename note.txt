@@ -1,0 +1,36 @@
+
+
+Educare Project resources
+
+Font-----
+	font-family: "Poppins", sans-serif;
+	Poppins 400, 600, 700
+
+Color-------
+	Hairy Health 	#682C0E
+	Tia Maria 		#C24914
+	Fire Opal 		#FC8621
+	Pale Brown 		#DAC0A3
+	Sweet Gold 		#F9E0AE
+	Satin 			#EADBC8
+
+------------------------------------------
+banner   xxl/xl       md        sm/col
+h1			48		  48	      35
+P 			20	      20		  16
+------------------------------------------
+course   xxl/xl       md        sm/col
+h1			48		  40	      33/20
+li 			20	      20		  18/15
+-------------------------------------------------
+register   		xxl/xl        md          sm/col
+h1				  48		  40	      33/20
+name,mail 		  20	      16		  16/14
+-------------------------------------------------
+community   	xxl/xl        md          sm/col
+h1				  48		  33	      20/20
+p 		 		  20	      18		  20/5
+-------------------------------------------------
+
+
+	
